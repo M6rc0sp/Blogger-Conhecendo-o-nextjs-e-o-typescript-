@@ -1,0 +1,16 @@
+.intro{
+    text-align: center;
+    @media screen and (max-width: 450px){
+        font-size: 10px !important;
+      }
+}
+.cardContainer{
+    @media screen and (max-width: 768px){
+        grid-template-columns: 100% !important;
+        display: grid;
+      }
+}
+.div_main{
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
